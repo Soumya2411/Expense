@@ -8,13 +8,10 @@ import Card from '../UI/Card'
 function ExpenseItem(props){
 //first is the initial value,second is the constant will give new value
 //it always return array with exact two values
-    const [title,setTitle] = useState(props.title);
-
-    
-    const clickHandler=()=>{
-        
-setTitle('Updated');
-console.log(title);
+    const [title,setTitle] = useState(props.title); 
+    const clickHandler=()=>{       
+    setTitle('Updated');
+    console.log(title);
     }
     return(
         <Card className='expense-item'>
