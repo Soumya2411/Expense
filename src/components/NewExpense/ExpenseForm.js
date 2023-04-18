@@ -63,6 +63,7 @@ const SubmitHandler=(event)=>{
     setEnteredAmount('');
     setEnteredDate('');
 }
+            //value used so that jb value submit ho jye we are back to empty space//
 
 return (
 <form onSubmit={SubmitHandler}>
